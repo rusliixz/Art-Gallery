@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.map-img-tablet {
+    display: none;
+}
+
+.map-img-mobile {
+    display: none;
+}
+
+.map {
+    position: relative;
+}
+
+.map-img {
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+
+.map-btn {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 156px;
+    display: flex;
+    background: #151515;
+}
+
+.left-arrow-icon {
+    padding: 24px;
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+}
+
+.back-to-home {
+    padding: 24px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+}
+
+.map-btn:hover {
+    background: #D5966C;
+    cursor: pointer;
+}
+
+.map-btn:hover>.left-arrow-icon {
+    background: #151515;
+}
+
+.our-location-main {
+    display: flex;
+    padding: 104px 165px 128px 165px;
+    background: #151515;
+    max-width: 1700px;
+}
+
+.our-location-left {
+    width: 350px;
+    height: 140px;
+    margin-right: 220px;
+}
+
+.our-location-title {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin-bottom: 24px;
+}
+
+.our-location-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.text2 {
+    margin-top: 32px;
+}
+
+.bottom-content-main {
+    padding: 80px 165px;
+    background: #D5966C;
+    max-width: 1700px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.art-gallery-dark-icon {
+    height: 58px;
+    width: 159.57235717773438px;
+}
+
+.bottom-content-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #151515;
+    width: 430px;
+}
+
+.our-location {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.facebook {
+    -webkit-mask-image: url('../icons/facebook.svg');
+}
+
+.instagram {
+    -webkit-mask-image: url('../icons/instagram.svg');
+}
+
+.twitter {
+    -webkit-mask-image: url('../icons/twitter.svg');
+}
+
+.icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #151515;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+}
+
+.icon:hover {
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.our-location-img-mobile {
+    display: none;
+}

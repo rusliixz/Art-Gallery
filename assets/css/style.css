@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.art-gallery-img-mobile {
+    display: none;
+}
+
+.art-gallery-img-tablet {
+    display: none;
+}
+
+.art-gallery {
+    position: relative;
+    display: flex;
+}
+
+.art-gallery-img {
+    position: absolute;
+    z-index: -5;
+}
+
+.art-gallery-title {
+    background-image: linear-gradient(to right, white 285px, black 165px);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 450px;
+}
+
+.the-gallery-title-mobile {
+    display: none;
+}
+
+.art-gallery-left {
+    padding: 189px 0 0 165px;
+}
+
+.art-gallery-right {
+    padding: 190px 164px 0 325px;
+}
+
+.art-gallery-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    width: 350px;
+    margin-bottom: 64px;
+}
+
+.art-gallery-btn {
+    padding: 24px 0 24px 32px;
+    display: flex;
+    background: #151515;
+    gap: 35px;
+    width: 260px;
+    align-items: center;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 494px;
+}
+
+.art-gallery-icon {
+    background: #D5966C;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 56px;
+    height: 72px;
+    padding: 24px;
+}
+
+.the-gallery {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.the-gallery-top {
+    display: flex;
+    gap: 125px;
+    margin-bottom: 30px;
+}
+
+.the-gallery-top-left {
+    width: 350px;
+    padding-top: 60px;
+}
+
+.the-gallery-top-title {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-bottom: 32px;
+}
+
+.the-gallery-top-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+
+.the-gallery-bottom {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 180px;
+}
+
+.the-gallery-bottom-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.the-gallery-bottom-content {
+    width: 445px;
+    background: #151515;
+    padding: 65px 47px 60px 48px;
+}
+
+.the-gallery-bottom-content-title {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.the-gallery-bottom-content-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.bottom-content-main {
+    background: #151515;
+    padding: 80px 165px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+}
+
+.bottom-content-img {
+    width: 159.57px;
+    height: 58px;
+}
+
+.bottom-content-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 430px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.facebook {
+    -webkit-mask-image: url('../icons/facebook.svg');
+}
+
+.instagram {
+    -webkit-mask-image: url('../icons/instagram.svg');
+}
+
+.twitter {
+    -webkit-mask-image: url('../icons/twitter.svg');
+}
+
+.icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+}
+
+.icon:hover {
+    background: #D5966C;
+    cursor: pointer;
+}
+
+.art-gallery-btn:hover {
+    background: #D5966C;
+    cursor: pointer;
+}
+
+.art-gallery-btn:hover>.art-gallery-icon {
+    background: #151515;
+}

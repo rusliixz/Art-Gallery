@@ -1,0 +1,74 @@
+@media screen and (max-width:767.9px) {
+    .map-img-tablet {
+        display: none;
+    }
+
+    .map-img-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .our-location-img {
+        display: none;
+    }
+
+    .our-location-img-mobile {
+        display: block;
+    }
+
+    .map-btn {
+        left: 0;
+    }
+
+    .back-to-home {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.63636px;
+    }
+
+    .our-location-main {
+        max-width: 767.9px;
+        padding: 48px 16px 56px 16px;
+        margin: 0 auto;
+    }
+
+    .our-location-left {
+        width: 343px;
+        height: 45px;
+        margin: 0 0 48px 0;
+    }
+
+    .our-location-right {
+        margin: 0;
+    }
+
+    .our-location {
+        flex-direction: column;
+    }
+
+    .our-location-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .our-location-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .text2 {
+        width: 343px;
+        margin-top: 20px;
+    }
+
+    .bottom-content-main {
+        max-width: 767.9px;
+        padding: 48px 32px;
+    }
+
+    .bottom-content {
+        max-width: 311px;
+        flex-direction: column;
+        gap: 38px;
+    }
+}
